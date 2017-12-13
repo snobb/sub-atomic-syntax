@@ -54,9 +54,26 @@ atom-text-editor {
 
 
 // Syntax styles
-
 .syntax--comment {
   color: @syntax-color-comment;
+
+  &.syntax--documentation {
+    .punctuation {
+      color: @doxygen-punctuation;
+    }
+
+    .syntax--variable {
+      color: @doxygen-variable;
+    }
+
+    .syntax--type.syntax--name {
+      color: @doxygen-type;
+    }
+
+    .syntax--storage {
+      color: @doxygen-command;
+    }
+  }
 }
 
 .syntax--keyword {
@@ -200,7 +217,7 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--section {
-    color: @syntax-color-import;
+    color: @syntax-color-section;
   }
 
   &.syntax--name.syntax--tag {

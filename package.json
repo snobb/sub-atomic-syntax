@@ -2,12 +2,12 @@
   "name": "sub-atomic-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "No syntax highlighting with tinted comments",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/venom-syntax",
+  "repository": "git@github.com:snobb/sub-atomic-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
